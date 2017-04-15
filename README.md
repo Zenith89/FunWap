@@ -1,5 +1,5 @@
 # FUNW@AP
- is a DSL that able to Interperating , Compiling and Generating IL Code . 
+ is a DSL that able to interperate,compile and Generating IL Code 
  
 
 Grammer 
