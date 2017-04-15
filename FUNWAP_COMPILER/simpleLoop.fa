@@ -1,0 +1,9 @@
+fun    main() boolean
+{
+var a numeric;
+a=0;
+while ( a <= 5 )
+{  printline a;
+   a = a + 1;
+}
+}

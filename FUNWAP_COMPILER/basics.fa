@@ -1,0 +1,30 @@
+FUN  MAIN()BOOLEAN
+{
+	var a numeric;
+	a=0;
+	var b numeric;
+	b=0;
+	//a_eq_b  is TRUE
+	
+	var a_eq_b boolean;
+	a_eq_b=a==b;
+	printline a_eq_b;
+	var i numeric;
+	i=0;
+	while ( i <=32 )
+	{  
+		
+		var a_eq_zero boolean;
+		a_eq_zero=a==0;
+		if(a_eq_zero)
+			{
+			printline "a is zero so b is";
+			}
+			else
+			{ printline "at least one of a b is zero" ;
+			}
+		i = i + 1;
+		a=a+i;
+		
+	}
+}
