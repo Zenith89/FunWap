@@ -1,0 +1,12 @@
+FUN  MAIN()BOOLEAN
+{
+	var a numeric=5;
+	var b numeric=a;
+	//b=10;
+	var a_eq_b boolean=a==b;
+	printline a_eq_b;
+	while ( a <=10 )
+	{  printline a;
+	a = a + 1;
+	}
+}

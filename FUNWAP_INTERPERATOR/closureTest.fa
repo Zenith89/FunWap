@@ -1,0 +1,24 @@
+FUN  outSideAdder () fun(NUMERIC) NUMERIC
+	{
+		var sum numeric=10;
+		
+		//Annonymous function Supporeted Without ID
+		return fun(x numeric) numeric
+				{  
+				sum=sum+x;
+				return sum;
+				}  
+	}
+FUN  MAIN () NUMERIC
+{ 
+	var adder fun=outSideAdder();// function to a specfic variable
+	var x numeric =5;
+	
+	 printline adder(x);  //15
+	 printline adder(x); //20
+	 
+	 //another Closure
+	var anotherAdder fun=outSideAdder(60);
+	printline anotherAdder(60); //70
+	printline anotherAdder(60);//130
+	}
