@@ -1,0 +1,6 @@
+FUN  MAIN () fun(NUMERIC) NUMERIC
+                                {//A NUMERIC,B NUMERIC
+                                  var a numeric;
+                                   a=11;
+                                      printline a;
+                                     return fun(x numeric){ var b numeric; b=a; var c numeric; c=5; a=b+c;  printline a; return a;}  }

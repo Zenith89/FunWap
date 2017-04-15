@@ -1,0 +1,30 @@
+FUN  cls () fun(NUMERIC) NUMERIC
+{//A NUMERIC,B NUMERIC
+	var sum numeric;
+	sum=10;
+	//printline a;
+return fun(x numeric) numeric
+		{ //var b numeric; 
+		// b=a+x;  
+		sum=sum+x;
+		// printline b;
+		return sum;
+		}  
+}
+FUN  MAIN () NUMERIC
+{ 
+	var antcls fun=cls();
+	var x numeric =5;
+   
+	var c numeric;
+	printline cls(x);
+	printline cls(x);
+	printline cls(x);
+	 c =cls(x);
+	printline c;
+	 printline antcls(x);  
+	 printline antcls(x); 
+var antcls2 fun=antcls;
+  printline antcls2(x); 
+  printline antcls2(x);
+	}

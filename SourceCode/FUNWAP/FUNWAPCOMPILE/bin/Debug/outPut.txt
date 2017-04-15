@@ -1,0 +1,108 @@
+
+//  Microsoft (R) .NET Framework IL Disassembler.  Version 3.5.30729.1
+//  Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly MyAssembly
+{
+  .hash algorithm 0x00008004
+  .ver 0:0:0:0
+}
+.module DynamicModule1
+// MVID: {8F722C6E-4D44-4AA7-9232-1ACC520C44E2}
+.imagebase 0x00400000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x001B0000
+
+
+// =============== CLASS MEMBERS DECLARATION ===================
+
+.class private auto ansi MainClass
+       extends [mscorlib]System.Object
+{
+  .method public static void  MAIN() cil managed
+  {
+    .entrypoint
+    // Code size       147 (0x93)
+    .maxstack  4
+    .locals init (float64 V_0,
+             float64 V_1,
+             bool V_2,
+             float64 V_3,
+             bool V_4)
+    IL_0000:  ldc.r8     0.0
+    IL_0009:  stloc.0
+    IL_000a:  ldc.r8     0.0
+    IL_0013:  stloc.1
+    IL_0014:  ldloc.0
+    IL_0015:  ldloc.1
+    IL_0016:  ceq
+    IL_0018:  stloc.2
+    IL_0019:  ldloc.2
+    IL_001a:  call       void [mscorlib]System.Console::WriteLine(bool)
+    IL_001f:  ldc.r8     0.0
+    IL_0028:  stloc.3
+    IL_0029:  ldloc.3
+    IL_002a:  ldc.r8     32.
+    IL_0033:  cgt
+    IL_0035:  ldc.i4     0x0
+    IL_003a:  ceq
+    IL_003c:  ldc.i4     0x1
+    IL_0041:  ceq
+    IL_0043:  brfalse    IL_0092
+
+    IL_0048:  ldloc.0
+    IL_0049:  ldc.r8     0.0
+    IL_0052:  ceq
+    IL_0054:  stloc.s    V_4
+    IL_0056:  ldloc.s    V_4
+    IL_0058:  ldc.i4     0x1
+    IL_005d:  ceq
+    IL_005f:  brfalse    IL_0073
+
+    IL_0064:  ldstr      "a is zero so b is"
+    IL_0069:  call       void [mscorlib]System.Console::WriteLine(string)
+    IL_006e:  br         IL_007d
+
+    IL_0073:  ldstr      "at least one of a b is zero"
+    IL_0078:  call       void [mscorlib]System.Console::WriteLine(string)
+    IL_007d:  ldloc.3
+    IL_007e:  ldc.r8     1.
+    IL_0087:  add
+    IL_0088:  stloc.3
+    IL_0089:  ldloc.0
+    IL_008a:  ldloc.3
+    IL_008b:  add
+    IL_008c:  stloc.0
+    IL_008d:  br         IL_0029
+
+    IL_0092:  ret
+  } // end of method MainClass::MAIN
+
+  .method public specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // Code size       7 (0x7)
+    .maxstack  2
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
+    IL_0006:  ret
+  } // end of method MainClass::.ctor
+
+} // end of class MainClass
+
+
+// =============================================================
+
+// *********** DISASSEMBLY COMPLETE ***********************
+

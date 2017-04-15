@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FUNWAPCLASS.Exp" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.BooleanConstant" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAQAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.NumericConstant" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAQAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.StringLiteral" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAQAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Variable" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAQgQAAAAAAAAAAAAAAAgABEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.BinaryPlus" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.BinaryMinus" Collapsed="true">
+    <Position X="28.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Mul" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Div" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.UnaryPlus" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.UnaryMinus" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.RelationExp" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAQAAAAAQgAAAABAAAAAAAAAAAgAAkA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.LogicalExp" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAQgAAAABAAAAAAAAAAAgAAkA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.LogicalNot" Collapsed="true">
+    <Position X="31" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAQgAAAAAAAAAAAAAAAAgAAkA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.CallExp" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAAAAAQgAAAAAgAAAgAAAAAAgQAEA=</HashCode>
+      <FileName>ASTForExpressions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Stmt" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.PrintStatement" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.PrintLineStatement" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.VariableDeclStatement" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.AssignmentStatement" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAEAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.IfStatement" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAAAEAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.WhileStatement" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAAAEAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.ReturnStatement" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ASTForStatements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.AbstractBuilder" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.TModuleBuilder" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQoIAAAAAAAAAQAAAAAAAAAAQAEAAAAAgAAAAAAABAA=</HashCode>
+      <FileName>Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.ProcedureBuilder" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAA4AhAABAAAAQMAQAAEAAIAgAIQAAAFgAAAE=</HashCode>
+      <FileName>Builder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.CompilationUnit" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>CompilationUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.PROC" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>CompilationUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.TModule" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAQAAgAAgAQAAAAIAAAAAAAEAAJAAEA=</HashCode>
+      <FileName>CompilationUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Procedure" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAHAAQAAAAAAAQABgIAAAAAAAAQIEgAAFA=</HashCode>
+      <FileName>CompilationUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FUNWAPCLASS.COMPILATION_CONTEXT" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contexts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.RUNTIME_CONTEXT" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAkEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contexts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.DNET_EXECUTABLE_GENERATION_CONTEXT" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAQAQAAAAAAAAoAAAAQAQEEAAAAAAAACAAIEEAA=</HashCode>
+      <FileName>Contexts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.ExeGenerator" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABIIAAAAAAAAAAgAAAAAAAAAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>ExeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.FUNCTION_INFO" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>FunctionSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.FRAME" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FunctionSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.SYMBOL_INFO" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAAAAAAAAAAgEAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.Lexer" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAQAAAARAAAAEBAAAQBAAAAAAIEAABCAACBAAA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.RDParser" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAABAABAABAAAAAAAAIACACAMgAAAGAAEASAkAAI=</HashCode>
+      <FileName>RDParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAPCLASS.SymbolTable" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>SymbolTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FUNWAP_INTERPERET.Program" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="FUNWAPCLASS.ValueTable" Collapsed="true">
+    <Position X="33.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="FUNWAPCLASS.TYPE_INFO" Collapsed="true">
+    <Position X="37" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAAgAAAAAAABAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FUNWAPCLASS.TOKEN" Collapsed="true">
+    <Position X="35.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQCIAglQFAkQAgBAoAAAKeQIAAKApAGAAAAIAwACA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FUNWAPCLASS.RELATION_OPERATOR" Collapsed="true">
+    <Position X="33.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEAAAAAAAAAASAAAAAAIAAAAAAIAAAAA=</HashCode>
+      <FileName>Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

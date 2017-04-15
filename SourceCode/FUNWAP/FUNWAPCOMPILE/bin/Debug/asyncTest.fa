@@ -1,0 +1,23 @@
+fun fib(n numeric) numeric 
+              {
+	            if(n < 2)
+	            {return 1;
+	            }
+	            else {
+	            var a numeric; var b numeric;
+	            a=async{
+	            return fib(n-1);
+	            }
+               b=async{
+               return fib(n-2);
+               }   
+				
+	            return a+b;
+	            }
+            }
+
+fun  main () numeric
+{  var x numeric;
+	x=5;
+	printline fib(x);//8
+	}
