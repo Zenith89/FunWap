@@ -1,5 +1,5 @@
 # FUNW@AP
- is a DSL that able to interperate,compile and Generating IL Code 
+DSL Interpereter and Commpiler. 
  
 
 Grammer 
@@ -10,9 +10,11 @@ Grammer
 <type>::= numeric | boolean |string
 <arglist>::= “( “ “) “ | “ ( “ identifier <type> [ , <arglist> ] “ ) “
 <Statments>::= {<stmt>}+
-<stmt>::= <varDeclarestmt>|<Printstmt>|<assigmentstmt> | <callstmt> | <ifstmt>
+<stmt>::= <varDeclarestmt>|<Printstmt>|<assigmentstmt> 
+| <callstmt> | <ifstmt>
 | < whilestmt > | <retstmt>
-<varDeclarestmt>::= var identifier <type> “ ; “ | var identifier <type>=<BExpr> “;”
+<varDeclarestmt>::= var identifier <type> “ ; “ 
+| var identifier <type>=<BExpr> “;”
 | var identifier fun =<callexpr> “;”
 <Printstmt>::=printline <BExpr>“;”
 <assigmentstmt>::= identifier “=“ <BExpr> “;” | identifier “=“ <Async>
@@ -25,7 +27,8 @@ Grammer
 <LExpr> ::= <Expr> <REL_OP ><Expr>
 <Expr> ::= <Term> <ADD_OP ><Expr>
 <Term>::= <Factor> <MUL_OP> <Term>
-<Factor> ::= <numeric> | <string> | true | false | <identifier> | <callexpr> | “(“ <expr> “)” | {+|-|!}
+<Factor> ::= <numeric> | <string> | true | false |
+<identifier> | <callexpr> | “(“ <expr> “)” | {+|-|!}
 <callexpr> ::= identifier “( “ “) “ | identifier “(“ <callpar> “)” “;”
 <callpar>::=<BExpr> | [',< callpar >']
 <LOGIC_OP> := “&&” | “||”
